@@ -1,0 +1,3 @@
+Acurácia do modelo: 1.00
+Modelo treinado com RandomForestClassifier e dataset.
+Matriz de confusão salva como PNG.
