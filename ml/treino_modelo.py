@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Carrega dataset 
-df = pd.read_csv("Dataset_Modelo.csv")
+df = pd.read_csv("../dataset/Dataset_Modelo.csv")
 
 # Codifica variável alvo
 le_risco = LabelEncoder()
