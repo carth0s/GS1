@@ -7,11 +7,13 @@
 
 ## O Projeto
 Este projeto simula um sistema de previsão de risco de deslizamentos utilizando:
-- Sensor de umidade (via potenciômetro) em um ESP32
-- Integração com Python via Serial
+- Sensor de umidade (via potenciômetro) em um ESP32, simulado no Wokwi
+- Entrada dos dados no Python de forma manual, representando a leitura via Serial
 - Machine Learning (Random Forest)
 - Análise exploratória com R
 - Dados simulados baseados em eventos reais documentados
+
+> Observação técnica: A entrada dos dados no Python ocorre manualmente nesta versão, representando valores que poderão futuramente ser enviados via Serial em uma integração completa com os sensores.
 
 ## Estrutura do Repositório
 
