@@ -5,6 +5,7 @@
 - Mauricio Jose Ferlin Tonnera - RM565469
 - Rodrigo Portugal Santos - RM564773
 
+## O Projeto
 Este projeto simula um sistema de previsão de risco de deslizamentos utilizando:
 - Sensor de umidade (via potenciômetro) em um ESP32
 - Integração com Python via Serial
