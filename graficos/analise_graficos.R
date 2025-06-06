@@ -4,7 +4,7 @@ library(dplyr)
 library(readr)
 
 # Lê o dataset
-df <- read_csv("Dataset_Modelo.csv")
+df <- read_csv("../dataset/Dataset_Modelo.csv")
 
 # Boxplot: Umidade por risco
 ggplot(df, aes(x = risco, y = umidade, fill = risco)) +
